@@ -1,0 +1,345 @@
+@font-face {
+    font-family: Helvetica Neue; /* Имя шрифта */
+    src: url(fonts/HelveticaNeue.ttf); /* Путь к файлу со шрифтом */
+}
+
+html {
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif !important;
+}
+body{
+	background-color:#24292e !important;
+	color:#fff !important;
+}
+a{
+	color:#fff !important;
+}
+a:hover{
+    color:#ff4a16 !important;
+}
+#header{
+	background:url('../images/bg_line.jpg') repeat-x left top #24292e;
+	height:96px;
+	margin: 0 auto;
+    min-width: 1170px;
+}
+.container{
+	width:1170px !important;
+}
+#content{
+	padding: 20px;
+}
+.logo {
+	background:url('../images/logo.png') no-repeat;
+	width:295px;
+	height:53px;
+	margin:15px 10px 10px 10px;
+}
+
+#footer{
+	background:url('../images/foot_line.jpg') repeat-x left top #24292e;
+	height: 100px;
+    padding-top: 30px;
+    margin: 0 auto;
+    min-width: 1170px;
+}
+
+#kinozal{
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.btn-default {
+	color:#000 !important;
+}
+.bottom_logo{
+	background:url('../images/bottom_logo.png') no-repeat;
+	width:136px;
+	height:23px;
+}
+.bottom_contact{
+	background:url('../images/contact.png') no-repeat;
+	width:174px;
+	height:28px;
+}
+
+.bottom_info_i{
+	background:url('../images/info.png') no-repeat;
+	width:242px;
+	height:35px;
+}
+
+.bottom_info{
+	margin:15px 25px 10px;
+}
+.bottom_contact_mar{
+	margin:5px 25px 10px;
+}
+
+.bottom_logo_style p {
+	color:#d6d7d8;
+	font-size:14px;
+}
+
+.contact_style p {
+	color:#d6d7d8;
+	font-size:18px;
+}
+
+.info_style{
+	color:#d6d7d8 ;
+	font-size:14px;
+}
+
+.info_style ul li{
+	list-style: none;
+}
+
+.info_style ul li a{
+    color:#d6d7d8 !important;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.info_style ul li a:hover{
+    color:#ff4a16 !important;
+}
+
+#sub_footer{
+	margin-bottom: 30px;
+}
+.sub_footer_lg{
+	font-size: 24px;
+	color:#dadcde;
+}
+.sub_footer_ng{
+	font-size: 16px;
+	color:#dadcde;
+}
+.sub_footer_metrika{
+	margin-right: 20px !important;
+    margin-top: 30px !important;
+}
+.menu_home{
+	background:url('../images/home.png') no-repeat;
+	width:91px;
+	height:44px;
+	float:right;
+}
+.menu_blogs{
+	background:url('../images/blogs.png') no-repeat;
+	width:86px;
+	height:44px;
+	float: right;
+}
+.menu_yslugi{
+	background:url('../images/yslugi.png') no-repeat;
+	width:93px;
+	height:44px;
+	float: right;
+}
+
+.menu_porf{
+	background:url('../images/porf.png') no-repeat;
+	width:127px;
+	height:44px;
+	float: right;
+}
+
+.menu_cont{
+	background:url('../images/cont.png') no-repeat;
+	width:102px;
+	height:44px;
+	float: right;
+}
+
+.menu_style_go {
+	margin-right: 32px;
+    margin-top: 20px;
+}
+
+
+
+
+
+.dg-container{
+	min-height: 380px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.dg-wrapper{
+	width: 481px;
+	height: 316px;
+	margin: 0 auto;
+	position: relative;
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	-o-transform-style: preserve-3d;
+	-ms-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+	-webkit-perspective: 1000px;
+	-moz-perspective: 1000px;
+	-o-perspective: 1000px;
+	-ms-perspective: 1000px;
+	perspective: 1000px;
+}
+.dg-wrapper a{
+	width: 482px;
+	height: 316px;
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 0;
+	background: transparent url('../images/browser.png') no-repeat top left;
+	box-shadow: 0px 10px 20px rgba(0,0,0,0.3);
+}
+.dg-wrapper a.dg-transition{
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	-ms-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+}
+.dg-wrapper a img{
+	display: block;
+	padding: 41px 0px 0px 1px;
+}
+.dg-wrapper a div{
+	font-style: italic;
+	text-align: center;
+	line-height: 50px;
+	color: #fff;
+	font-size: 16px;
+	width: 100%;
+	bottom: -55px;
+	display: none;
+	position: absolute;
+}
+.dg-wrapper a.dg-center div{
+	display: block;
+}
+.dg-center{
+	transform: translateX(0px) translateZ(0px) rotateY(0deg);
+}
+.dg-container nav{
+	left: 0;
+    margin-left:0px;
+    position: absolute;
+    top: 100px;
+    width: 100%;
+    z-index: 1000;
+}
+
+.dg-prev{
+	background:url('../images/arrow_left.png') no-repeat;
+	height:114px;
+	width:74px;
+	margin-left: 120px;
+	cursor:pointer;
+}
+.dg-next{
+	background:url('../images/arrow_right.png') no-repeat;
+	height:114px;
+	width:76px;
+	margin-right: 120px !important;
+	cursor:pointer;
+}
+
+.dg-container nav span:hover{
+	opacity: 1;
+}
+.dg-container nav span.dg-next{
+	background-position: top right;
+	margin-left: 10px;
+}
+
+.table-hover tr:hover {
+	color:#000;
+}
+
+
+
+.con_head {
+  color:#f1f1f1;
+  font-size:30px;
+  font-weight:bold;
+  padding-bottom:5px;
+}
+
+.con_head_h3{
+  color:#f1f1f1;
+  font-size:30px;
+  font-weight:bold;
+  padding-bottom:5px;
+}
+
+.botbar {
+    background: none repeat scroll 0 0 #ebeaea;
+    clear: both;
+    color: #888888;
+    font-size: 12px;
+    height: 32px;
+    margin-bottom: 15px;
+    padding-top: 10px;
+    position: relative;
+    width: 100%;
+}
+.botbar li {
+    float: left;
+    list-style: outside none none;
+    padding-left: 20px;
+}
+.more {
+    background: none repeat scroll 0 0 #175392;
+    color: white;
+    font-size: 14px;
+    height: 32px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.more:hover {
+    background: none repeat scroll 0 0 #477094;
+}
+.more a {
+    color: white;
+    display: block;
+    font-size: 14px !important;
+    padding: 7px;
+    text-decoration: none;
+}
+.more a:hover {
+}
+
+
+.content_view a{
+	font-size: 24px;
+	color:#FFFFE0 !important;
+	
+}
+.content_view a:hover{
+	color:#ff4a16 !important;
+}
+.modal-dialog{
+	color:#222;
+}
+
+.b-junction_pager {
+    background: none repeat scroll 0 0 #1d1d1e;
+    border: 1px solid #090a0b;
+    border-radius: 3px;
+    box-shadow: 0 0 1px rgba(255, 255, 255, 0.35) inset, 0 1px 0 rgba(255, 255, 255, 0.05) inset, 0 0 12px rgba(0, 0, 0, 0.12);
+    color: #979899;
+    float: left;
+    font-weight: bold;
+    height: 27px;
+    line-height: 27px;
+    margin-left: 3px;
+    padding: 0 12px;
+    text-transform: uppercase;
+    transition: all 0.1s ease-in-out 0s;
+    font-size: 12px;
+    text-decoration: none !important;
+}
+.strl_keft{
+	 margin-top: 5px;
+}
